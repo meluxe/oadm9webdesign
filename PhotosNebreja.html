@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Gallery</title>
+  <link rel="stylesheet" href="Homepage.css">
+ 
+
+<body>
+
+</head>
+<body>
+<header class="topbar">
+  <div class="menu">&#9776;
+  <a href="Homepage.html" class="nav-item">
+  </a>
+  </div>
+    <div class="icons">
+      <span>🔔</span>
+      <span>⋮</span>
+    </div>
+  </header>
+
+  <section class="title-section">
+
+    <h2>Gallery</h2>
+
+    <div class="action-icons">
+      <span>⚲</span>
+      <span>⇅</span>
+    </div>
+
+  </section>
+
+  <h3 class="subtitle">Photos & Videos</h3>
+
+
+ <br>
+  <section class="gallery">
+    <div class="photo">
+      <img src="famn.jpg" alt="Image" class="click-image">
+      <p>Elementary Graduation</p>
+    </div>
+
+    <div class="photo">
+      <img src="abc123.jpeg">
+       <p>Bahay na Bato</p>
+    </div>
+
+    <div class="photo">
+      <img src="deansl.jpeg">
+       <p> 1st sem Dean's List</p>
+    </div>
+
+    <div class="photo">
+      <img src="akwe.jpeg">
+       <p>1st Year AKWE</p>
+    </div>
+
+    <div class="photo">
+      <img src="grad.jpg" alt="">
+       <p>Grade 12 Work Immersion</p>
+    </div>
+
+    <div class="photo">
+      <img src="vev.jpg" alt="">
+       <p>Graduation</p>
+    </div>
+    
+    <div class="photo">
+      <img src="mnl.jpg" >
+      <p>Manila Tour</p>
+    </div>
+    
+     <div class="photo">
+      <img src="abz.jpeg">
+      <p> Graduation</p>
+    </div>
+    
+    <div class="photo">
+      <img src="akwe1.jpg" alt="">
+    </div>
+    
+    <div class="photo">
+      <img src="akwe2.jpg" >
+    </div>
+    
+     <div class="photo">
+      <img src="akwe3.jpg">
+    </div>
+
+      <div class="photo">
+      <img src="akwe4.jpg">
+    </div>
+    
+    </div>
+  </section>
+
+  <nav class="bottom-nav">
+
+  <a href="Homepagenebreja.html" class="nav-item">
+      <span>⌂ </span>
+      <p>Home</p>
+    </a>
+    
+   <a href="BSOANebreja.html" class="nav-item">
+      <span>🌐</span>
+      <p> What is Office Administration? </p>
+    </a>
+    
+    <a href="AboutMeNebreja.html" class="nav-item">
+      <span>☁</span>
+      <p> About Me</p>
+    </a>
+
+ <a href="PhotosNebreja.html" class="nav-item ">
+      <span>🖼</span>
+      <p>Gallery</p>
+    </a>
+      
+  </nav>
+  <hr>
+</body>
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const sidebar = document.getElementById('sidebarMenu');
+    const overlay = document.getElementById('sidebarOverlay');
+
+    // Function to open sidebar
+    menuBtn.addEventListener('click', () => {
+      sidebar.classList.add('active');
+      overlay.classList.add('active');
+    });
+
+    // Function to close sidebar when clicking the dark background overlay
+    overlay.addEventListener('click', () => {
+      sidebar.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+  </script>
+</html>

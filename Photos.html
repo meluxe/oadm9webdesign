@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Gallery</title>
+  <link rel="stylesheet" href="Homepage.css">
+ 
+
+<body>
+
+<header class="topbar">
+  <div class="menu">&#9776;
+  <a href="Homepage.html" class="nav-item">
+  </a>
+  </div>
+    <div class="icons">
+      <span>🔔</span>
+      <span>⋮</span>
+    </div>
+  </header>
+
+  <section class="title-section">
+
+    <h2>Gallery</h2>
+
+    <div class="action-icons">
+      <span>⚲</span>
+      <span>⇅</span>
+    </div>
+
+  </section>
+
+  <h3 class="subtitle">Photos & Videos</h3>
+
+      <video autoplay loop width="1080" height="720" controls>
+      <source src="djii.mp4" type="video/mp4">
+      <source src="video.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+ <br>
+  <section class="gallery">
+    <div class="photo">
+      <img src="Luxe.jpg" alt="Image" class="click-image">
+      
+      <p> Buruanga,Aklan</p>
+    </div>
+
+    <div class="photo">
+      <img src="sunset.jpg">
+       <p> Boracay Island, Malay, Aklan</p>
+    </div>
+
+    <div class="photo">
+      <img src="beach.jpg">
+       <p> Mararison Island,Culasi, Antique</p>
+    </div>
+
+    <div class="photo">
+      <img src="smile.jpeg">
+       <p> Bugasong, Antique</p>
+    </div>
+
+    <div class="photo">
+      <img src="glass.jpg" alt="">
+       <p> Bugasong, Antique</p>
+    </div>
+
+    <div class="photo">
+      <img src="bini.jpg" alt="">
+       <p> Oton, Iloilo</p>
+    </div>
+    
+    <div class="photo">
+      <img src="guimarass.jpg" >
+      <p>Guimaras</p>
+    </div>
+    
+     <div class="photo">
+      <img src="boracay.jpeg">
+      <p> Boracay Island, Malay,  Aklan</p>
+    </div>
+    
+    <div class="photo">
+      <img src="pandan.jpg" alt="">
+       <p> Pandan, Antique</p>
+    </div>
+    
+    <div class="photo">
+      <img src="sunflower.jpg" >
+      <p> Barbaza, Antique</p>
+    </div>
+    
+     <div class="photo">
+      <img src="white flower.jpg">
+      <p> Aningalan, Antique</p>
+    </div>
+    
+    <div class="photo">
+      <img src="intigban.jpg">
+      <p> Mt. Intigban, Bugasong, Antique</p>
+    </div>
+  </section>
+
+  <nav class="bottom-nav">
+
+  <a href="Homepage.html" class="nav-item">
+      <span>⌂ </span>
+      <p>Home</p>
+    </a>
+    
+   <a href="BSOA.html" class="nav-item">
+      <span>🌐</span>
+      <p> What is Office Administration? </p>
+    </a>
+    
+    <a href="AboutMe.html" class="nav-item">
+      <span>☁</span>
+      <p> About Me</p>
+    </a>
+
+ <a href="Photos.html" class="nav-item ">
+      <span>🖼</span>
+      <p>Gallery</p>
+    </a>
+      
+  </nav>
+    <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const sidebar = document.getElementById('sidebarMenu');
+    const overlay = document.getElementById('sidebarOverlay');
+
+    // Function to open sidebar
+    menuBtn.addEventListener('click', () => {
+      sidebar.classList.add('active');
+      overlay.classList.add('active');
+    });
+
+    // Function to close sidebar when clicking the dark background overlay
+    overlay.addEventListener('click', () => {
+      sidebar.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+  </script>
+
+</body>
+</html>
