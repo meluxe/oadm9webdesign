@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>My Website</title>
+  <link rel="stylesheet" href="Homepagenebreja.css">
+
+</head>
+<body>
+
+  <aside class="sidebar" id="sidebarMenu">
+    <div class="sidebar-header">
+      <div class="profile-avatar"></div>
+      <div class="profile-info">
+        <h3>Brenda Mae Pastrana</h3>
+        <p>pastranabrendamae@gmail.com</p>
+      </div>
+    </div>
+    
+    <nav class="sidebar-links">
+      <a href="activity.html" class="logout-link">
+        <span class="icon">🚪</span> Log Out
+      </a>
+    </nav>
+  </aside>
+
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <header class="topbar">
+    <div class="menu" id="menuBtn">&#9776;</div>
+    <a href="Homepagenebreja.html" class="nav-item">
+    </a></div>
+
+    <div class="icons">
+      <span>🔔</span>
+      <span>⋮</span>
+    </div>
+  </header>
+
+  <section class="title-section">
+
+    <h2>Welcome to my Website!</h2>
+
+    <div class="action-icons">
+      <span>⚲</span>
+      <span>⇅</span>
+    </div>
+
+  </section>
+<H4> Hello, I am </h4>
+  
+  </section>
+  <h1> Brenda Mae Pastrana</h1>
+  
+  <hr>
+  <div class="intro">
+  <aside class="img">
+  <br>
+  <div> <img src="ID Picture.jpg" width="300" margin="10 10p">  </div> <hr>
+ 
+ <h2>Welcome to my personal profile page!</h2><br>
+ <p>Thank you for taking time to learn a bit more about my academic journey, personal background, and aspirations.</p><br>
+ 
+ <p> I am a passionate and a creative individual who enjoys learning new skills, explore new places and believes in <br> continuous growth, learning and self-improvemnet. I value dedication, responsibility and preseverance in everything I do. <br> I enjoy taking on new challenges and learning from every experience, whether in academics, personal or professional development . <br> I am driven by a desire to make a meaningful contribution, achieve my goals, and become the best version of myself both personally and professionally.</p><br>
+
+<hr>
+<div class="container">
+<div class="container-card">
+  <h2> Educational Background </h2>
+  <br>
+  <h3>College</h3>
+  <p>University of Antique, Bachelor of Science in Office Administration</p><br>
+  <h3>High School</h3>
+  <p>Pigcawayan National High School</p><br>
+  <h3>Elementary</h3>
+  <p>Pigcawayan Central Elementary School</p>
+  
+  
+  </div>
+  
+  
+  
+  <nav class="bottom-nav">
+
+   <a href="Homepage.html" class="nav-item">
+      <span>⌂ </span>
+      <p>Home</p>
+    </a>
+    
+   <a href="BSOA.html" class="nav-item">
+      <span>🌐</span>
+      <p> What is Office Administration? </p>
+    </a>
+    
+    <a href="AboutMe.html" class="nav-item">
+      <span>☁</span>
+      <p> About Me</p>
+    </a>
+
+ <a href="Photos.html" class="nav-item ">
+      <span>🖼</span>
+      <p>Gallery</p>
+    </a>
+  </nav>
+  
+   <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const sidebar = document.getElementById('sidebarMenu');
+    const overlay = document.getElementById('sidebarOverlay');
+
+    // Function to open sidebar
+    menuBtn.addEventListener('click', () => {
+      sidebar.classList.add('active');
+      overlay.classList.add('active');
+    });
+
+    // Function to close sidebar when clicking the dark background overlay
+    overlay.addEventListener('click', () => {
+      sidebar.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+  </script>
+
+</body>
+</html>

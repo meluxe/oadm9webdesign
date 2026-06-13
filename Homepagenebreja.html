@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>My Website</title>
+  <link rel="stylesheet" href="Homepagenebreja.css">
+</head>
+<body>
+
+  <aside class="sidebar" id="sidebarMenu">
+    <div class="sidebar-header">
+      <div class="profile-avatar"></div>
+      <div class="profile-info">
+        <h3>Mychelle Dane Nebreja</h3>
+        <p>nebrejamychelledane@gmail.com</p>
+      </div>
+    </div>
+    
+    <nav class="sidebar-links">
+      <a href="activity.html" class="logout-link">
+        <span class="icon">🚪</span> Log Out
+      </a>
+    </nav>
+  </aside>
+
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <header class="topbar">
+    <div class="menu" id="menuBtn">&#9776;</div>
+    <a href="Homepagenebreja.html" class="nav-item">
+    </a></div>
+
+    <div class="icons">
+      <span>🔔</span>
+      <span>⋮</span>
+    </div>
+  </header>
+
+  <section class="title-section">
+    <h2>Welcome to my Website!</h2>
+    <div class="action-icons">
+      <span>⚲</span>
+      <span>⇅</span>
+    </div>
+  </section>
+
+  <h4>Hello, I am</h4>
+  <h1>Mychelle Dane C. Nebreja</h1>
+  
+  <hr>
+
+  <div class="intro">
+    <div class="img">
+    <br>
+    <div><img src="idpicm.jpg" width="300" margin="10 10p">
+    </div> 
+    <hr>
+ 
+    <h2>Welcome to my personal profile page!</h2>
+    <p>Thank you for taking time to learn a bit more about my academic journey, personal background, and aspirations.</p>
+    <p> <b>Short Introduction: <br>I’m just a simple girl who loves books, but by day, I’m also a 2nd-year Office Administration student learning the ropes of organizing workflows.When I step away from my desk, my real adventures begin: I’m either completely buried deep in the pages of a good book or setting sail across the grand line with Luffy and the Straw Hat crew in One Piece. I like to think of myself as an organized student by day, a story-traveler by night, and an aspiring pirate king in between—bringing a mix of structure and wild imagination to everything I do. Take a look around my digital workspace, and I hope you enjoy your stay!</p>
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <div class="container-card">
+      <h2>Educational Background</h2>
+      <h3>College</h3>
+      <p>University of Antique, Bachelor of Science in Office Administration</p>
+      <h3>High School</h3>
+      <p>Diclum National High School, 2019-2024</p>
+      <h3>Elementary</h3>
+      <p>Bayo Crispin V. Unica Memorial School, 2013-2019</p>
+      
+      <hr>
+      
+      <h2>Awards & Achievements</h2>
+      <br>
+      
+        <p>Civil Service Examinatio, March 2026</p>
+        <p>Academic Awardee, 2016-2025</p>
+        <p>Valedictorian, Elementary, Batch 2019</p>
+    
+      
+    </div>
+  </div>
+  
+  <nav class="bottom-nav">
+    <a href="HomepageNebreja.html" class="nav-item">
+      <span>⌂</span>
+      <p>Home</p>
+    </a>
+    <a href="BSOANebreja.html" class="nav-item">
+      <span>🌐</span>
+      <p>What is Office Admin?</p>
+    </a>
+    <a href="AboutMeNebreja.html" class="nav-item">
+      <span>☁</span>
+      <p>About Me</p>
+    </a>
+    <a href="PhotosNebreja.html" class="nav-item">
+      <span>🖼</span>
+      <p>Gallery</p>
+    </a>
+  </nav>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const sidebar = document.getElementById('sidebarMenu');
+    const overlay = document.getElementById('sidebarOverlay');
+
+    // Function to open sidebar
+    menuBtn.addEventListener('click', () => {
+      sidebar.classList.add('active');
+      overlay.classList.add('active');
+    });
+
+    // Function to close sidebar when clicking the dark background overlay
+    overlay.addEventListener('click', () => {
+      sidebar.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+  </script>
+</body>
+</html>
