@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Office Administration</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <div class="overlay">
+
+      <h1>Office Administration</h1>
+
+      <p>
+        Office Administration plays an important role in every company and organization.
+        It helps maintain smooth communication, proper management, and organized workflow.
+      </p>
+
+      <a href="#importance" class="btn">
+        Learn More
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- IMPORTANCE SECTION -->
+  <section class="importance" id="importance">
+
+    <h2>Why Office Administration is Important</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <i class="fa-solid fa-folder-open"></i>
+        <h3>Organization</h3>
+
+        <p>
+          Office administration keeps records, schedules, and files properly organized.
+        </p>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-users"></i>
+        <h3>Communication</h3>
+
+        <p>
+          It improves communication between employees, managers, and clients.
+        </p>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-briefcase"></i>
+        <h3>Productivity</h3>
+
+        <p>
+          Proper administration helps employees work efficiently and effectively.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- STENOGRAPHY SECTION -->
+  <section class="stenography">
+
+    <div class="stenography-text">
+
+      <h2>Stenography</h2>
+
+      <p>
+        Stenography is the skill of writing quickly using shorthand symbols.
+        It is commonly used in offices, courtrooms, and meetings to record information accurately.
+      </p>
+
+      <p>
+        Stenographers help businesses save time and maintain important records efficiently.
+      </p>
+
+    </div>
+
+    <div class="stenography-image">
+      <img src="images/stenography.jpg" alt="Stenography">
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      © 2026 Office Administration Web Design
+    </p>
+
+  </footer>
+
+</body>
+</html>
