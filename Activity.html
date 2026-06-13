@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Create Account</title>
+  <link rel="stylesheet" href="Activity.css">
+</head>
+<body>
+
+
+  <div class="container">
+    
+    <div class="left">
+      <div class="overlay">
+        <h1>Adobe</h1>
+  
+      </div>
+    </div>
+    
+ <div class="right">
+    <div class="form-box">
+      <p class="step">Step 1 of 2</p>
+      <h2>Create an account</h2>
+      <p class="sub">Sign up with email</p>
+
+     <form>
+      <label>Email Address</label>
+      <input type="email" id="username" 
+     placeholder="Enter your email" required>
+
+      <label>Password</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+      <button type="button" onclick="login()">Log In</button>
+     </form>
+    </div>
+  </div>
+
+<script>
+function login() {
+
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+
+    if (username === "pastranabrendamae" && password === "12345") { 
+    window.location.href = "Homepage.html";
+    }
+    else if (username === "nebrejamychelledane" && password === "54321") {
+    window.location.href = "Homepagenebreja.html";
+    }
+    else {
+        alert("Invalid username or password.");
+    }
+    
+}
+
+</script>
+
+
+</body>
+</html>
